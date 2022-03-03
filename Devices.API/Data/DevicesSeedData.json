@@ -1,0 +1,122 @@
+[
+    {
+      "Name": "desktop",
+      "PhotoUrl": "https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/000000/external-desktop-contact-us-xnimrodx-lineal-xnimrodx.png",
+      "Usages": [
+        {
+          "DeviceId": 1,
+          "DateTime": "05/01/2022 02:49:50",
+          "Temperature": 13,
+          "Status": "Off"
+        },
+        {
+          "DeviceId": 1,
+          "DateTime": "08/02/2022 05:52:09",
+          "Temperature": 46,
+          "Status": "Off"
+        },
+        {
+          "DeviceId": 1,
+          "DateTime": "12/01/2022 04:27:55",
+          "Temperature": 36,
+          "Status": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "ipad",
+      "PhotoUrl": "https://img.icons8.com/glyph-neue/64/000000/ipad.png",
+      "Usages": [
+        {
+          "DeviceId": 2,
+          "DateTime": "07/02/2022 12:21:54",
+          "Temperature": 34,
+          "Status": "Off"
+        },
+        {
+          "DeviceId": 2,
+          "DateTime": "28/01/2022 09:59:05",
+          "Temperature": 39,
+          "Status": "Available"
+        },
+        {
+          "DeviceId": 2,
+          "DateTime": "08/02/2022 11:31:44",
+          "Temperature": 33,
+          "Status": "Off"
+        }
+      ]
+    },
+    {
+      "Name": "iphone",
+      "PhotoUrl": "https://img.icons8.com/ios-glyphs/60/000000/iphone.png",
+      "Usages": [
+        {
+          "DeviceId": 3,
+          "DateTime": "27/01/2022 07:17:00",
+          "Temperature": 42,
+          "Status": "Off"
+        },
+        {
+          "DeviceId": 3,
+          "DateTime": "11/02/2022 01:13:35",
+          "Temperature": 39,
+          "Status": "Off"
+        },
+        {
+          "DeviceId": 3,
+          "DateTime": "18/02/2022 10:24:59",
+          "Temperature": 9,
+          "Status": "Available"
+        }
+      ]
+    },
+    {
+      "Name": "laptop",
+      "PhotoUrl": "https://img.icons8.com/pastel-glyph/64/000000/laptop--v3.png",
+      "Usages": [
+        {
+          "DeviceId": 4,
+          "DateTime": "06/02/2022 05:07:11",
+          "Temperature": 26,
+          "Status": "Available"
+        },
+        {
+          "DeviceId": 4,
+          "DateTime": "09/01/2022 10:03:11",
+          "Temperature": 6,
+          "Status": "Available"
+        },
+        {
+          "DeviceId": 4,
+          "DateTime": "25/01/2022 03:41:49",
+          "Temperature": 44,
+          "Status": "Available"
+        }
+      ]
+    },
+    {
+      "Name": "monitor",
+      "PhotoUrl": "https://img.icons8.com/pastel-glyph/64/000000/monitor--v2.png",
+      "Usages": [
+        {
+          "DeviceId": 5,
+          "DateTime": "14/01/2022 08:43:27",
+          "Temperature": 27,
+          "Status": "Off"
+        },
+        {
+          "DeviceId": 5,
+          "DateTime": "09/01/2022 07:38:20",
+          "Temperature": 8,
+          "Status": "Available"
+        },
+        {
+          "DeviceId": 5,
+          "DateTime": "20/02/2022 11:05:09",
+          "Temperature": 25,
+          "Status": "Available"
+        }
+      ]
+    }
+  ]
