@@ -1,0 +1,49 @@
+<div class="container mt-2">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="container mt-3">
+        <section class="row">
+         <div action class="row highlight align-items-center">
+                 <div class="col-md-8">
+                  <div class="container">
+                      <button class="" aria-label="Start searching" (click)="newCurrentDevice()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="fxs-0 w-20 h-20 color-nebula-500 lg:w-30 lg:h-30"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                      </button>
+                      <input class="" [(ngModel)]="deviceSearchName" placeholder="Search" type="text" width="100%" (keyup.enter)="newCurrentDevice()">
+                  </div>
+                 </div>
+                 <div class="col-md-4">
+                   <div class="row float-right">
+                    <a class="h5" (click)="clearSearch()">Cancel</a>
+                   </div>
+                 </div>
+           </div>
+         </section>
+     </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- 
+<div class="container">
+  <div class="row">
+    <div class="row">
+      <div class="row highlight ">
+        <div class="col-md-9 ">
+          
+        </div>
+        <div class="col-md-3 ">
+          <p>Cancel</p>
+        </div>
+    </div>
+
+    </div>
+  
+</div>
+
+</div> -->
+       
+        

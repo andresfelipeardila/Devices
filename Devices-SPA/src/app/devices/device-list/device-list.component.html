@@ -1,0 +1,25 @@
+<div class="container mt-3">
+   <section class="row">
+    <div action *ngFor="let device of devices" class="row highlight align-items-center">
+            <div class="col-md-3">
+              <img src="{{device.photoUrl}}"  alt="{{device.name}}">
+            </div>
+            <div class="col-md-7">
+                <div class="mt-3">
+                  <strong class="text-capitalize h5">{{device.name}}</strong>
+                </div>
+                <div>
+                  <p class="lead font-weight-normal gray">Status: {{device.status}}</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+              <div class="icon">
+                <a routerLink="/devicedetails/{{device.id}}" class="icon-link"><mat-icon aria-hidden="false" class="float-right" aria-label="Example info icon" inline="true">info</mat-icon></a>
+              </div>  
+            </div>
+      </div>
+    </section>
+</div>
+<!-- <div class="row">
+  <p>{{currentDeviceName}}</p>
+</div> -->

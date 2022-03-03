@@ -1,0 +1,14 @@
+.highlight {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #eaeaf6;
+    padding: 1rem 1.5rem;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.float-right {
+    float: right;
+}

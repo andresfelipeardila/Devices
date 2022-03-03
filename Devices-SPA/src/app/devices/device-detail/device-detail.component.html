@@ -1,0 +1,50 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-md-6">
+      <section class="row">
+        <div class="row highlight align-items-center">
+          <strong class="text-capitalize h4">Related Devices</strong>
+        </div>
+        <div action *ngFor="let device of deviceDetails.relatedDevices" class="row highlight align-items-center">
+                <div class="col-md-3">
+                  <img src="{{device.photoUrl}}"  alt="{{device.name}}">
+                </div>
+                <div class="col-md-9">
+                    <div class="mt-3">
+                      <strong class="text-capitalize h5">{{device.name}}</strong>
+                    </div>
+                    <div>
+                      <p class="lead font-weight-normal gray">Status: {{device.status}}</p>
+                    </div>
+                </div>
+          </div>
+        </section>
+    </div>
+    <div class="col-md-6">
+      <section class="row border border-secondary">
+        <div  class="headerSection">
+          <strong class="text-capitalize h4">Details: {{deviceDetails.name}}</strong>
+        </div>
+        <div class="row">
+            <p class="lead font-weight-normal gray">Status: {{deviceDetails.status}}</p>
+            <p class="lead font-weight-normal gray">Temperature: {{deviceDetails.temperature}}</p>
+            <p class="lead font-weight-normal gray">Usage</p>
+        </div>
+        <div class="row pb-3">
+          <div class="col-md-4">
+            <mat-progress-spinner mode="determinate" value={{deviceDetails.usageList[0]}}>
+            </mat-progress-spinner>
+          </div>
+          <div class="col-md-4">
+            <mat-progress-spinner mode="determinate" value={{deviceDetails.usageList[1]}}>
+            </mat-progress-spinner>
+          </div>
+          <div class="col-md-4">
+            <mat-progress-spinner mode="determinate" value={{deviceDetails.usageList[2]}}>
+            </mat-progress-spinner>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
